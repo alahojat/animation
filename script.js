@@ -1,28 +1,5 @@
 let spinningCircle = document.getElementById("letterO");
 
-// // Get the element with the class 'blue_monstera'
-// let blueMonstera = document.querySelector(".cls-2");
-
-// // Use GSAP to create a sway animation for the leaf
-// gsap.to(blueMonstera, {
-//   duration: 3,
-//   rotation: 5, // Rotate the leaf to the right
-//   yoyo: true, // Alternate between rotating to the right and left
-//   repeat: -1, // Repeat the animation indefinitely
-//   ease: "power1.inOut", // Use a smooth ease for a natural sway
-// });
-
-let blueMonsteraFill = document.querySelector(".blue_monstera_fill");
-
-// Use GSAP to create a sway animation for the leaf
-gsap.to(blueMonsteraFill, {
-  duration: 3,
-  rotation: 10, // Rotate the leaf to the right
-  yoyo: true, // Alternate between rotating to the right and left
-  repeat: -1, // Repeat the animation indefinitely
-  ease: "power1.inOut", // Use a smooth ease for a natural sway
-});
-
 gsap.to(spinningCircle, {
   rotation: 360,
   duration: 4,

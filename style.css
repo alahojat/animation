@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url('assets/IMG_2901.JPG');
+    background-image: url('public/assets/IMG_2901.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -45,7 +45,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 10px;
+    min-width: 100px;
     max-width: 300px;
     
 }
@@ -55,26 +56,28 @@ button {
     background: none;
     border: none;
     color: rgb(246, 246, 246);
-    font-size: 1.6rem;
-    cursor: pointer;    
+    font-size: 1.4rem;
+    cursor: pointer;   
+  
     
 }
 
 .page_title1 {
     margin: 20px;
-    width: 100%;
+    width: 70%;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     min-width: 30px;
     max-width: 700px;
-    top: 15%;
+    top: 25%;
+    left: 20%;
     z-index: 10;
 }
 
 .page_title {
-    margin-top: 0 20px 0 20px;
+    padding: 20px;
     width: 100%;
     position: absolute;
     display: flex;
@@ -86,21 +89,10 @@ button {
     left: 50%; 
     transform: translateX(-50%);
     z-index: 10;
-  
 }
 
 
-.records_title {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-    min-width: 800px;
-    top: 40%;
-    left: 50%; 
-    transform: translateX(-50%);
-}
+
 
 .blue_monstera1 {
     position: absolute;
@@ -117,17 +109,4 @@ button {
 }
 
 
-
-.blue_monstera_fill {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    display: none;
-    top: 20%;
-    left: 90%;
-    transform: translate(-50%, -55%);
-    min-width: 500px;
-      
-}
 
