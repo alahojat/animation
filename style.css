@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('assets/IMG_2901.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+h1 {
+    font-size: 9rem;
+    color: white;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+h2 {
+    font-size: 8rem;
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    margin: 0;
+    text-transform: uppercase;   
+}
+
+header {
+    margin: 0;
+    width: 100%;
+    
+}
+
+nav {
+    position: absolute;
+    top: 90%;
+    left: 50%; 
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 300px;
+    
+}
+button {
+    padding: 10px 15px;
+    display: inline;
+    background: none;
+    border: none;
+    color: rgb(246, 246, 246);
+    font-size: 1.6rem;
+    cursor: pointer;    
+    
+}
+
+.page_title1 {
+    margin: 20px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 30px;
+    max-width: 700px;
+    top: 15%;
+    z-index: 10;
+}
+
+.page_title {
+    margin-top: 0 20px 0 20px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    max-width: 700px;
+    top: 15%;
+    left: 50%; 
+    transform: translateX(-50%);
+    z-index: 10;
+  
+}
+
+
+.records_title {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    min-width: 800px;
+    top: 40%;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+.blue_monstera1 {
+    position: absolute;
+    left: 35%;
+    bottom: 0;
+    max-width: 100px;
+}
+
+.blue_monstera2 {
+    position: absolute;
+    right: 1%;
+    top: 10%;
+    min-width: 300px;
+}
+
+
+
+.blue_monstera_fill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: none;
+    top: 20%;
+    left: 90%;
+    transform: translate(-50%, -55%);
+    min-width: 500px;
+      
+}
+
